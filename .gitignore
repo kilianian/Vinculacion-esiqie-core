@@ -1,0 +1,15 @@
+# Entornos virtuales
+venv/
+env/
+
+# Seguridad (ESTO ES LO MÁS IMPORTANTE)
+.env
+
+# Archivos compilados de Python (basura del sistema)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar archivos CSV temporales gigantes si se generan
+*.csv
+!data/processed/*.csv
